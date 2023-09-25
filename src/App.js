@@ -8,6 +8,8 @@ import Messages from './pages/messages';
 import Project from './pages/project';
 import Staffing from './pages/staffing';
 import SideNavbar from './pages/global/Sidebar';
+// import Footer from './components/Footer';
+import AddStaff from './pages/AddStaff';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -25,7 +27,9 @@ function App() {
               <Route path="/Project" element={<Project />} />
               <Route path="/Staffing" element={<Staffing />} />
               <Route path="/Messages" element={<Messages />} />
+              <Route path="/AddStaff" element={<AddStaff />} />
             </Routes>
+            {/* <Footer /> */}
           </main>
         </div>
       </ThemeProvider>
