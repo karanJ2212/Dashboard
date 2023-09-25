@@ -146,12 +146,12 @@ const SideNavbar = () => {
 
             <Item
               title="Add Staff"
-              to="/form"
+              to="/AddStaff"
               icon={<GroupAddIcon />}
               selected={selected}
               setSelected={setSelected}
             />
-            <Box height="200px" />
+            <Box height="400px" />
             <Item
               title="support"
               icon={<SupportAgentIcon />}

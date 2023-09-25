@@ -70,7 +70,7 @@ export default function PostedProjects() {
     <Box
       sx={{
         backgroundColor: colors.primary[400],
-        p: 3,
+        p: 2,
         borderRadius: '8px',
         textAlign: 'center',
         boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
@@ -82,12 +82,11 @@ export default function PostedProjects() {
         display="flex"
         justifyContent="space-between"
         borderBottom={`1px solid ${colors.grey[200]}`}
-        padding="10px"
       >
-        <Typography variant="h2" component="p" color={colors.grey[100]}>
+        <Typography variant="h4" component="p" color={colors.grey[100]}>
           Posted Projects
         </Typography>
-        <Typography variant="h4" component="p" color={colors.grey[100]}>
+        <Typography variant="h6" component="p" color={colors.grey[100]}>
           <a
             href="/see-all"
             style={{ textDecoration: 'none', color: colors.grey[100] }}
@@ -107,11 +106,11 @@ export default function PostedProjects() {
               justifyContent: 'space-between',
               alignItems: 'center',
               p: 2,
-              my: 2,
+              my: 1,
             }}
           >
             <Box sx={{ flex: 1 }}>
-              <Typography variant="h4" color={colors.text} textAlign="left">
+              <Typography variant="h6" color={colors.text} textAlign="left">
                 {project.description}
               </Typography>
             </Box>

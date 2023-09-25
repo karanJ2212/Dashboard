@@ -8,8 +8,8 @@ const StatBox = ({ title, subtitle, icon }) => {
   const colors = tokens(theme.palette.mode);
 
   return (
-    <Box width="100%" m="0 30px">
-      <Box display="flex" justifyContent="space-between">
+    <Box width="100%" m="0 20px">
+      <Box display="flex" justifyContent="space-between" alignItems="center">
         <Box>
           <Typography
             variant="h2"
@@ -22,8 +22,8 @@ const StatBox = ({ title, subtitle, icon }) => {
         <Box
           sx={{
             borderRadius: '50%',
-            width: '50px',
-            height: '50px',
+            width: '30px',
+            height: '30px',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
